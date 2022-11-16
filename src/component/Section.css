@@ -1,0 +1,43 @@
+@import url(../base.css);
+
+.container_aboutme {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
+  text-align: justify;
+  margin-top: 6%;
+  gap: 1.5em;
+}
+
+.aboutme {
+  text-overflow: clip;
+}
+.container_aboutme .image_profile {
+  max-width: 250px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.container_aboutme .aboutme {
+  width: 450px;
+  color: var(--font-color);
+}
+
+.container_socialnetwork {
+  display: flex;
+  justify-content: stretch;
+}
+.icon {
+  color: aliceblue;
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: rgb(29, 221, 255);
+  scale: 1.5;
+}

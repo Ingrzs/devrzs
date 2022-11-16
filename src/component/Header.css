@@ -1,0 +1,27 @@
+@import url(../base.css);
+.header{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: -1px 6px 7px 0px rgba(0,0,0,0.69);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header .logo {
+    align-self: center;
+    color: var(--font-color)
+}
+.header .nav ul {
+    display: flex;
+    justify-content: stretch;
+    list-style-type: none;
+}
+
+.header .nav ul li{
+    margin-left:40px;
+    color:var(--font-color);
+    cursor: pointer;
+}
+
+.header .nav ul li:hover {
+color:var(--button-color);
+}
